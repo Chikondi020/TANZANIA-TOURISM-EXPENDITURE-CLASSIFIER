@@ -1,0 +1,18 @@
+[project]
+name = "tanzania-tourism-expenditure-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "notebook>=7.6.2",
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+tanzania-tourism-expenditure-classifier = "tanzania_tourism_expenditure_classifier:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
